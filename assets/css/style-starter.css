@@ -30,15 +30,15 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-body{font-family:Sarasa Mono TC!important;}
-h1{font-family:Sarasa Mono TC!important;}
-h2{font-family:Sarasa Mono TC!important;}
-h3{font-family:Sarasa Mono TC!important;}
-h4{font-family:Sarasa Mono TC!important;}
-h5{font-family:Sarasa Mono TC!important;}
-h6{font-family:Sarasa Mono TC!important;}
-a{font-family:Sarasa Mono TC!important;}
-.text-js{font-family:Sarasa Mono TC!important;}
+body{font-family:'Montserrat', serif!important;}
+h1{font-family:'Montserrat', serif!important;}
+h2{font-family:'Montserrat', serif!important;}
+h3{font-family:'Montserrat', serif!important;}
+h4{font-family:'Montserrat', serif!important;}
+h5{font-family:'Montserrat', serif!important;}
+h6{font-family:'Montserrat', serif!important;}
+a{font-family:'Montserrat', serif!important;}
+.text-js{font-family:'Montserrat', serif!important;}
 
 *,
 *::before,
@@ -96,6 +96,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
 
 p {
   margin-top: 0;
@@ -15534,14 +15535,14 @@ h4.search-pop-text-w3 {
   transition: all .25s ease-in-out;
 }
 
-.btn-style-white {
+.btn-style-white:hover {
   background: #ffffff;
-  border-color: #ffffff;
   color: #1A2C79;
 }
 
-.btn-style-white:hover {
+.btn-style-white {
   background: transparent;
+  border-color: #ffffff;
   color: #ffffff;
 }
 
@@ -15583,7 +15584,7 @@ h4.search-pop-text-w3 {
 
 /* banner */
 .w3l-banner {
-  background: url(../images/1.jpg) no-repeat center;
+  background: url(../images/background.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15591,6 +15592,7 @@ h4.search-pop-text-w3 {
   -ms-background-size: cover;
   z-index: 0;
   position: relative;
+  max-height: 100%;
   min-height: 800px;
   min-height: 100vh;
   display: flex;
@@ -15741,7 +15743,7 @@ a.read-button:hover,
 
 /* stats section */
 .w3_stats {
-  background: url(../images/bg1.jpg) no-repeat center fixed;
+  background: url(../images/p5.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16433,6 +16435,9 @@ h5.contact-text {
 
 @media (max-width: 480px) {}
 
+.w3l-service-3{
+  background-color: #F9F9F9;
+}
 /* //contact page */
 
 /*# sourceMappingURL=style-freedom.css.map */
