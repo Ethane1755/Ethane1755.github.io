@@ -81,6 +81,10 @@ body {
   outline: 0 !important;
 }
 
+.test{
+  font-size:1vw;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -4621,6 +4625,8 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+
+
 
 .navbar-brand:hover,
 .navbar-brand:focus {
