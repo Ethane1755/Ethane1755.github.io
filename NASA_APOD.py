@@ -22,3 +22,6 @@ for index, link in enumerate(image_links):
     img = requests.get(RootUrl+'/'+link+'.jpg')
     with open("images\\"+d+".jpg", "wb") as file:
         file.write(img.content) 
+print('NASA APOD of',today.strftime('%Y/%m/%d'),'done.')
+print('Press any key to continue...')
+input()
